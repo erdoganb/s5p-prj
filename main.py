@@ -9,11 +9,11 @@ user_lon = float(36.77118198728893)
 user_lat = float(36.21960356869678)
 
 # path to netCDF data
-path = r'/Users/erdoganb/Desktop/erdo-dev/python/gis/s5p_read/no2 files/S5P_NRTI_L2__NO2____20221003T110408_20221003T110908_25765_03_020400_20221003T115001.nc'
-dir_path = r'/Users/erdoganb/Desktop/erdo-dev/python/gis/s5p_read/no2 files'
+path = r'~/s5p-prj/files/S5P_NRTI_L2__NO2____20221003T110408_20221003T110908_25765_03_020400_20221003T115001.nc'
+dir_path = r'~/s5p-prj/files'
 
 #path divided
-path_suffix = "/Users/erdoganb/Desktop/erdo-dev/python/gis/s5p_read/no2 files/"
+path_suffix = r'~/s5p-prj/files/'
 # read dataset function
 def read_dataset(file_path):  # file = path to file
     # read as Dataset
