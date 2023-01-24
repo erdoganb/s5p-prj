@@ -13,4 +13,4 @@ result = search(
 # Download found products to the local folder
 #download(result.get('products'))
 
-download(result.get('products'), output_dir='/Users/erdoganb/Desktop/erdo-dev/python/gis/s5p_read/no2 files')
+download(result.get('products'), output_dir=r'~/s5p-prj/files')
